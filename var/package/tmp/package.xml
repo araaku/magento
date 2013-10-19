@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package>
+    <name>CorlleteLab_Imagezoom</name>
+    <version>0.1.11</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Image Zoom v. 0.1.11</summary>
+    <description>Image Zoom for product images. Configurable and Grouped products are also supported.&#xD;
+&#xD;
+0.1.11&#xD;
+- Added new config settings</description>
+    <notes>0.1.6&#xD;
+- Fixed PHP version requirements&#xD;
+&#xD;
+0.1.7&#xD;
+- Added support for 1.4+&#xD;
+&#xD;
+0.1.8&#xD;
+- Minor fixes&#xD;
+&#xD;
+0.1.9&#xD;
+- Tint effect JS error FIX&#xD;
+- Language file minor fix&#xD;
+&#xD;
+0.1.11&#xD;
+- Added new config settings</notes>
+    <authors><author><name>Desislav Yosifov</name><user>auto-converted</user><email>deskin@probg.com</email></author></authors>
+    <date>2011-10-28</date>
+    <time>07:40:46</time>
+    <contents><target name="magecommunity"><dir name="CorlleteLab"><dir name="Imagezoom"><dir name="Block"><dir name="Catalog"><dir name="Product"><file name="View.php" hash="49b559624494bf64ace997fbee9dfd52"/></dir></dir><dir name="Html"><file name="Head.php" hash="eb6a6cc918857cb6a49695946b3b0339"/></dir></dir><dir name="Helper"><file name="Data.php" hash="da181c23320ffd48fc13076a61e5743b"/></dir><dir name="Model"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Source"><file name="Position.php" hash="3202945d312df9a18977e38473a88a33"/><file name="Zoomeffect.php" hash="506343ccb9ef940fc577029ed5a0a47c"/></dir></dir><file name="Color.php" hash="6d9be20970ecbbc3be9f4e29e4130d06"/><file name="Size.php" hash="4d27ab856f017b32626a19460b0984a5"/></dir></dir></dir><dir name="controllers"><file name="IndexController.php" hash="a7ae6f32c671c0624779a1d6a188a885"/></dir><dir name="etc"><file name="adminhtml.xml" hash="2774ef2b98fc8995157a97f1d05e0196"/><file name="config.xml" hash="c4e7c63cccf394a083eabd6ed46f35a7"/><file name="system.xml" hash="bf8d66ef415c1dcd01db3af51ccff862"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="CorlleteLab_Imagezoom.xml" hash="be76b163aaf29b643d4a8c27ead5b5ee"/></dir></target><target name="magelocale"><dir name="en_US"><file name="CorlleteLab_ImageZoom.csv" hash="1f1ec1c1fd6dd0c71717a644e4f4b20c"/></dir></target><target name="mageweb"><dir name="js"><dir name="corlletelab"><dir name="imagezoom"><file name="cloud-zoom.1.0.2.js" hash="c1893fd33ca7e6329246342be8acc03d"/><file name="jquery-1.6.2.min.js" hash="a1a8cb16a060f6280a767187fd22e037"/><file name="product_override.js" hash="a7b9d9c1d0eec0937f6394f3b6b81dc0"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="imagezoom.xml" hash="7447d71df1a9c3cd48cd110d6dd2972c"/></dir><dir name="template"><dir name="corlletelab"><dir name="imagezoom"><file name="grouped.phtml" hash="cbb95504d0160bf8647ab1de975289ea"/><file name="media.phtml" hash="01ceb7e649828f70a24420fd015b17a2"/></dir></dir></dir></dir></dir><dir name="default"><dir name="default"><dir name="layout"><file name="imagezoom.xml" hash="7447d71df1a9c3cd48cd110d6dd2972c"/></dir><dir name="template"><dir name="corlletelab"><dir name="imagezoom"><file name="grouped.phtml" hash="cbb95504d0160bf8647ab1de975289ea"/><file name="media.phtml" hash="01ceb7e649828f70a24420fd015b17a2"/></dir></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><dir name="corlletelab"><file name="imagezoom.css" hash="988e76756be393d452cd36a570a94c7d"/></dir></dir></dir></dir><dir name="default"><dir name="default"><dir name="css"><dir name="corlletelab"><file name="imagezoom.css" hash="8bb60e53a7b337fd33db683dfae3c59c"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>
