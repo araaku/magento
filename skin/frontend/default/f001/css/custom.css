@@ -243,7 +243,7 @@ button.btn-checkout span span{padding:0 16px}
 
 .recently .last{border-bottom:0px solid #FFF}
 .recently .subtitle{color:#459B06; font-size:1.4em; font-weight:normal;     line-height:1.3em; margin:0; max-width:100%; overflow:hidden; padding:5px 0 4px 10px}
-.recently li.item{width:167px; float:left; padding:10px 10px 40px;}
+.recently li.item{width:167px; float:left; padding:10px 10px 40px; border: 1px solid #808080; margin: 4px;}
 .recently li.item .price-box{}
 .recently li.item .actions { position: absolute; bottom: 12px; }
 

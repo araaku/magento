@@ -35,11 +35,11 @@ if (($_products = $this->getProductCollection()) && $_products->getSize()): ?>
       <?php if ($i++%$_columnsCount==0): ?>
     <ol class="grid-row">
         <?php endif; ?>
-        <li class="item">
+        <li class="item" style="width:46%">
             <p class="product-image">
                 <a href="<?php echo $this->getUrl('ajax/product/quickview/id/' . $_product->getId()) ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>" class="ajax"><?php echo $this->__('Quick view') ?></a>
                 <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>">
-                    <img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(150, 150) ?>" width="150" height="150" alt="<?php echo $this->htmlEscape($_product->getName()) ?>" />
+                    <img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image') ?>" width="80%" height="80%" alt="<?php echo $this->htmlEscape($_product->getName()) ?>" />
                 </a>
             </p>
             <h5><a class="product-name" href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>)"><?php echo $this->htmlEscape($_product->getName()) ?></a></h5>
